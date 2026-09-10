@@ -1,0 +1,30 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgSoda" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a2417"/>
+      <stop offset="100%" stop-color="#1c120a"/>
+    </linearGradient>
+    <linearGradient id="glassSoda" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaf6f6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#cfe7e7" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="liquidSoda" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8622c"/>
+      <stop offset="100%" stop-color="#8f2f10"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgSoda)"/>
+  <ellipse cx="150" cy="248" rx="58" ry="10" fill="#000" opacity="0.25"/>
+  <path d="M108 88 L122 235 Q150 244 178 235 L192 88 Z" fill="url(#glassSoda)" stroke="#eaf6f6" stroke-width="2" opacity="0.9"/>
+  <path d="M115 102 L126 228 Q150 236 174 228 L185 102 Z" fill="url(#liquidSoda)"/>
+  <!-- bubbles -->
+  <circle cx="135" cy="200" r="4" fill="#fff2df" opacity="0.7"/>
+  <circle cx="150" cy="170" r="3" fill="#fff2df" opacity="0.6"/>
+  <circle cx="165" cy="210" r="3.5" fill="#fff2df" opacity="0.6"/>
+  <circle cx="140" cy="140" r="2.5" fill="#fff2df" opacity="0.5"/>
+  <circle cx="160" cy="120" r="3" fill="#fff2df" opacity="0.5"/>
+  <!-- straw -->
+  <rect x="160" y="40" width="12" height="150" rx="6" fill="#fdf6ec" transform="rotate(10 166 115)"/>
+  <!-- ice -->
+  <rect x="128" y="115" width="24" height="24" rx="4" fill="#eaf6f6" opacity="0.5" transform="rotate(-12 140 127)"/>
+</svg>

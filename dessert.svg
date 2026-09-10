@@ -1,0 +1,27 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgSweet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a2417"/>
+      <stop offset="100%" stop-color="#1c120a"/>
+    </linearGradient>
+    <linearGradient id="cakeBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e9c98f"/>
+      <stop offset="100%" stop-color="#a9744f"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgSweet)"/>
+  <!-- plate -->
+  <ellipse cx="150" cy="215" rx="95" ry="20" fill="#fdf6ec"/>
+  <ellipse cx="150" cy="211" rx="95" ry="18" fill="#e9dcc4"/>
+  <!-- cake slice -->
+  <path d="M100 205 L150 95 L200 205 Z" fill="url(#cakeBody)"/>
+  <path d="M100 205 L150 95 L150 205 Z" fill="#c9a15a" opacity="0.5"/>
+  <rect x="97" y="196" width="106" height="14" fill="#6f4426"/>
+  <rect x="105" y="150" width="90" height="10" fill="#6f4426" opacity="0.7" transform="skewX(-15)"/>
+  <!-- cream drizzle -->
+  <path d="M120 100 Q150 80 180 100 Q160 110 150 100 Q140 110 120 100 Z" fill="#fdf6ec"/>
+  <circle cx="150" cy="88" r="9" fill="#c0392b"/>
+  <!-- crumbs -->
+  <circle cx="215" cy="220" r="4" fill="#a9744f"/>
+  <circle cx="90" cy="225" r="3" fill="#a9744f"/>
+</svg>

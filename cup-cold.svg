@@ -1,0 +1,32 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a3a3f"/>
+      <stop offset="100%" stop-color="#101a1c"/>
+    </linearGradient>
+    <linearGradient id="glassCold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaf6f6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#cfe7e7" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="liquidCold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e9dcc4"/>
+      <stop offset="55%" stop-color="#a9744f"/>
+      <stop offset="100%" stop-color="#4b2c17"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgCold)"/>
+  <ellipse cx="150" cy="248" rx="60" ry="10" fill="#000" opacity="0.25"/>
+  <!-- glass -->
+  <path d="M105 90 L120 235 Q150 245 180 235 L195 90 Z" fill="url(#glassCold)" stroke="#eaf6f6" stroke-width="2" opacity="0.9"/>
+  <path d="M112 105 L124 228 Q150 236 176 228 L188 105 Z" fill="url(#liquidCold)"/>
+  <!-- ice cubes -->
+  <rect x="128" y="115" width="26" height="26" rx="4" fill="#eaf6f6" opacity="0.55" transform="rotate(12 141 128)"/>
+  <rect x="155" y="140" width="24" height="24" rx="4" fill="#eaf6f6" opacity="0.5" transform="rotate(-10 167 152)"/>
+  <rect x="130" y="160" width="22" height="22" rx="4" fill="#eaf6f6" opacity="0.45" transform="rotate(8 141 171)"/>
+  <!-- straw -->
+  <rect x="163" y="45" width="12" height="150" rx="6" fill="#c9a15a" transform="rotate(8 169 120)"/>
+  <!-- condensation -->
+  <circle cx="118" cy="150" r="3" fill="#eaf6f6" opacity="0.6"/>
+  <circle cx="185" cy="180" r="2.5" fill="#eaf6f6" opacity="0.5"/>
+  <circle cx="112" cy="190" r="2" fill="#eaf6f6" opacity="0.5"/>
+</svg>
